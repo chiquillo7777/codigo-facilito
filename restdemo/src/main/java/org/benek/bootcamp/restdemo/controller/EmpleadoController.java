@@ -28,6 +28,7 @@ public class EmpleadoController {
 
     @PostMapping("/empleados")
     public Empleado createEmpleado(@RequestBody Empleado empleado){
+
         return repository.save(empleado);
     }
 

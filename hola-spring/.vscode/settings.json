@@ -1,3 +1,10 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic"
+    "files.associations": {
+      "*.sql": "oracle",
+      "*.ddl": "oracle",
+      "*.dml": "oracle",
+      "*.pks": "oracle",
+      "*.pkb": "oracle"
+  }
+
 }
